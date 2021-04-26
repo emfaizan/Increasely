@@ -1,0 +1,20 @@
+{
+    "name": "increasely",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "npx tailwindcss build .//css/styles.css -o .//css/output.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "autoprefixer": "^10.2.4",
+      "tailwindcss": "^2.0.3"
+    },
+    "dependencies": {
+      "tailwindcss-cli": "^0.1.2"
+    }
+  }
+  
