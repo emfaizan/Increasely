@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-banner:after {
   content:'';
-  @apply bg-purple-900 opacity-50 absolute inset-0;
+  @apply bg-purple-900 opacity-70 absolute inset-0;
 }
 
 @tailwind utilities;
