@@ -29,6 +29,10 @@ module.exports = {
           100: '#F5F8FC'
         }
       },
+      fontFamily: {
+        'poppins': ['Poppins'],
+        'sfpro': ['SF Pro Display']
+      },
       container: {
         screens: {
           sm: "100%",
