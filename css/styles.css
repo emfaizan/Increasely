@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  @apply px-8 lg:px-11 py-4 lg:py-6 text-2xl lg:text-3xl inline-block rounded-3xl bg-white text-blue-900 border border-blue-200;
+  @apply px-7 lg:px-10 py-3 lg:py-5 text-lg lg:text-xl inline-block rounded-2xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
 }
 
 .btn.primary {
@@ -92,7 +92,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-banner:after {
   content:'';
-  @apply bg-purple-900 opacity-70 absolute inset-0;
+  @apply bg-purple-900 opacity-70 absolute min-h-screen inset-0;
+}
+
+.check-list li {
+  @apply pl-14 bg-no-repeat;
+  background-image:url(../images/icon-check.svg);
+  background-size: 28px;
+  background-position: 0 10px;
 }
 
 @tailwind utilities;

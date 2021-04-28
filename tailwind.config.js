@@ -33,12 +33,18 @@ module.exports = {
         'poppins': ['Poppins'],
         'sfpro': ['SF Pro Display']
       },
+      fontSize: {
+        '1-375': '1.375rem',
+        '1-75': '1.75rem',
+        '2': '2rem',
+        '2-5': '2.5rem',
+        '2-75': '2.75rem',
+      },
       container: {
         screens: {
           sm: "100%",
           md: "100%",
-          lg: "2100px",
-          xl: "2140px"
+          lg: "1400px"
         },
         center: true,
         padding: {
