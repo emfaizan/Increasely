@@ -83,11 +83,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  @apply px-7 lg:px-10 py-3 lg:py-5 text-lg lg:text-xl inline-block rounded-2xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
+  @apply px-6 lg:px-8 py-2 lg:py-3 text-sm lg:text-base inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
 }
 
 .btn.primary {
   @apply bg-purple-800 text-white border border-purple-800;
+}
+
+.mega-dropdown {
+  @apply w-screen z-50 bg-white;
+  margin-left:50%;
+  left:-50vw;
+}
+
+/* Dropdown */
+
+.dropdown-menu:hover > div {display: block !important ;}
+
+
+/* Mobile Menu */
+.main-nav.open {
+  @apply absolute top-full left-0 right-0;
+  display:block !important;
 }
 
 .hero-banner:after {
@@ -96,9 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .check-list li {
-  @apply pl-14 bg-no-repeat;
+  @apply pl-11 bg-no-repeat;
   background-image:url(../images/icon-check.svg);
-  background-size: 28px;
+  background-size: 22px;
   background-position: 0 10px;
 }
 

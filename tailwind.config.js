@@ -18,6 +18,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        black: '#0C2133',
         purple: {
           900: '#291562',
           800: '#6A27FF'
@@ -44,7 +45,7 @@ module.exports = {
         screens: {
           sm: "100%",
           md: "100%",
-          lg: "1400px"
+          lg: "1240px"
         },
         center: true,
         padding: {
