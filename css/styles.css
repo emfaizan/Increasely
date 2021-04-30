@@ -109,14 +109,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-banner:after {
   content:'';
-  @apply bg-purple-900 opacity-70 absolute min-h-screen inset-0;
+  @apply bg-purple-900 opacity-70 absolute inset-0;
 }
 
+/* Check list */
 .check-list li {
   @apply pl-11 bg-no-repeat;
   background-image:url(../images/icon-check.svg);
   background-size: 22px;
   background-position: 0 10px;
+}
+
+/* Owl carousel */
+.testimonial-slider .owl-nav {
+  position:absolute; 
+  right:0; top:-80px;
 }
 
 @tailwind utilities;
