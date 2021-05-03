@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  @apply px-6 lg:px-8 py-2 lg:py-3 text-sm lg:text-base inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
+  @apply px-6 lg:px-8 py-3 text-sm lg:text-base font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
 }
 
 .btn.primary {
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mega-dropdown {
-  @apply w-screen z-50 bg-white;
+  @apply w-screen z-50 bg-white lg:absolute relative hidden;
   margin-left:50%;
   left:-50vw;
 }
@@ -101,16 +101,33 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu:hover > div {display: block !important ;}
 
 
-/* Mobile Menu */
+
+/* HAMBURGER MENU */
+.icon-hamburger{@apply relative m-auto cursor-pointer; width: 28px;height: 22px;transform:rotate(0);transition:.5s ease-in-out;}
+.icon-hamburger span{@apply block absolute bg-white rounded left-0 opacity-100 w-full;height:3px;transform:rotate(0);transition:.25s ease-in-out}
+.icon-hamburger span:nth-child(1){@apply top-0;}
+.icon-hamburger span:nth-child(2), .icon-hamburger span:nth-child(3){top: 9px;}
+.icon-hamburger span:nth-child(4){top: 18px;}
+.icon-hamburger.open span:nth-child(1){top:18px;width:0%;left:50%}
+.icon-hamburger.open span:nth-child(2){transform:rotate(45deg)}
+.icon-hamburger.open span:nth-child(3){transform:rotate(-45deg)}
+.icon-hamburger.open span:nth-child(4){top:18px;width:0%;left:50%}
+
+
+/* MOBILE MENU */
 .main-nav.open {
-  @apply absolute top-full left-0 right-0;
-  display:block !important;
+    @apply absolute top-full left-0 right-0;
+    display:block !important;
 }
+
+
 
 .hero-banner:after {
   content:'';
   @apply bg-purple-900 opacity-70 absolute inset-0;
 }
+
+
 
 /* Check list */
 .check-list li {
@@ -123,7 +140,29 @@ h1, h2, h3, h4, h5, h6 {
 /* Owl carousel */
 .testimonial-slider .owl-nav {
   position:absolute; 
-  right:0; top:-80px;
+  right:0; top:-50px;
+  width:50px;
+  display:flex;
+  justify-content: space-between;
 }
+
+.owl-nav button {
+  width:23px !important;
+  height:18px !important;
+  display:block !important;
+  background-size: contain !important;
+  background-repeat:no-repeat !important;
+  outline:0;
+}
+.owl-nav button > span {font-size:0;}
+
+.owl-nav .owl-next {
+  background-image:url(../images/icon-arrow-left.svg) !important;
+}
+
+.owl-nav .owl-prev {
+  background-image:url(../images/icon-arrow-right.svg) !important;
+}
+
 
 @tailwind utilities;
