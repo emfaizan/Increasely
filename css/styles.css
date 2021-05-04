@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   .dropdown-menu:hover > div {display: block !important ;}
 }
 
+.dropdown-menu.active > div {display: block !important ;}
 
 
 /* HAMBURGER MENU */
