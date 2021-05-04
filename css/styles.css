@@ -97,8 +97,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Dropdown */
-
-.dropdown-menu:hover > div {display: block !important ;}
+@screen lg {
+  .dropdown-menu:hover > div {display: block !important ;}
+}
 
 
 
@@ -131,10 +132,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Check list */
 .check-list li {
-  @apply pl-11 bg-no-repeat;
+  @apply pl-11 bg-no-repeat pb-4;
   background-image:url(../images/icon-check.svg);
   background-size: 22px;
-  background-position: 0 10px;
+  background-position: 0 7px;
 }
 
 /* Owl carousel */

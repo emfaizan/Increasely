@@ -3,6 +3,10 @@ $(".icon-hamburger").click(function() {
 	$('.main-nav').toggleClass("open")
 });
 
+$('.dropdown-menu').click(function(){
+    $(this).toggleClass("active");
+});
+
 
 $('.testimonial-slider').owlCarousel({
     loop:true,
@@ -14,8 +18,8 @@ $('.testimonial-slider').owlCarousel({
         0:{
             items:1,
         },
-        600:{
-            items:1,
+        768:{
+            items:2,
         },
         1000:{
             items:2,
