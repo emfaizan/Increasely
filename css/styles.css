@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  @apply px-6 lg:px-8 py-3 text-sm lg:text-base font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
+  @apply px-6 lg:px-8 py-3 text-sm lg:text-base outline-none font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
 }
 
 .btn.primary {
@@ -124,6 +124,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+.hero-banner:before {
+  content:'';
+  @apply opacity-90 absolute inset-0;
+  background: -moz-linear-gradient(left,  rgba(56,21,162,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(left,  rgba(56,21,162,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to right,  rgba(56,21,162,1) 0%,rgba(125,185,232,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3815a2', endColorstr='#007db9e8',GradientType=1 );
+
+}
 .hero-banner:after {
   content:'';
   @apply bg-purple-900 opacity-70 absolute inset-0;
