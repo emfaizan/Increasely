@@ -32,7 +32,8 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins'],
-        'sfpro': ['SF Pro Display']
+        'sfpro': ['SF Pro Display'],
+        'gilroy': ['Gilroy']
       },
       fontSize: {
         '1-375': '1.375rem',
