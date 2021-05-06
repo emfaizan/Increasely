@@ -103,40 +103,103 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  @apply px-6 lg:px-8 py-2 lg:py-3 text-sm lg:text-base inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
+  @apply px-6 lg:px-8 py-3 text-sm lg:text-base outline-none font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
 }
+
+.btn.arrow {display:inline-flex; align-items:center;}
+.btn.arrow:after {content:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(23%2C%2071%2C%20128%2C%201)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");line-height: 0;margin-left: 15px;margin-right: -10px;}
+.btn.arrow:hover:after {content:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255%2C255%2C255%2C1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");}
 
 .btn.primary {
   @apply bg-purple-800 text-white border border-purple-800;
 }
 
+.btn.primary.arrow:after {content:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255%2C255%2C255%2C1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");line-height: 0; margin-left: 15px;margin-right: -10px;}
+
 .mega-dropdown {
-  @apply w-screen z-50 bg-white;
+  @apply w-screen z-50 bg-white lg:absolute relative hidden;
   margin-left:50%;
   left:-50vw;
 }
 
 /* Dropdown */
-
-.dropdown-menu:hover > div {display: block !important ;}
-
-
-/* Mobile Menu */
-.main-nav.open {
-  @apply absolute top-full left-0 right-0;
-  display:block !important;
+@screen lg {
+  .dropdown-menu:hover > div {display: block !important ;}
 }
 
+.dropdown-menu.active > div {display: block !important ;}
+
+
+/* HAMBURGER MENU */
+.icon-hamburger{@apply relative m-auto cursor-pointer; width: 28px;height: 22px;transform:rotate(0);transition:.5s ease-in-out;}
+.icon-hamburger span{@apply block absolute bg-white rounded left-0 opacity-100 w-full;height:3px;transform:rotate(0);transition:.25s ease-in-out}
+.icon-hamburger span:nth-child(1){@apply top-0;}
+.icon-hamburger span:nth-child(2), .icon-hamburger span:nth-child(3){top: 9px;}
+.icon-hamburger span:nth-child(4){top: 18px;}
+.icon-hamburger.open span:nth-child(1){top:18px;width:0%;left:50%}
+.icon-hamburger.open span:nth-child(2){transform:rotate(45deg)}
+.icon-hamburger.open span:nth-child(3){transform:rotate(-45deg)}
+.icon-hamburger.open span:nth-child(4){top:18px;width:0%;left:50%}
+
+
+/* MOBILE MENU */
+.main-nav.open {
+    @apply absolute top-full left-0 right-0;
+    display:block !important;
+}
+
+
+
+.hero-banner:before {
+  content:'';
+  @apply opacity-90 absolute inset-0;
+  background: -moz-linear-gradient(left,  rgba(56,21,162,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(left,  rgba(56,21,162,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to right,  rgba(56,21,162,1) 0%,rgba(125,185,232,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3815a2', endColorstr='#007db9e8',GradientType=1 );
+
+}
 .hero-banner:after {
   content:'';
-  @apply bg-purple-900 opacity-70 absolute min-h-screen inset-0;
+  @apply bg-purple-900 opacity-70 absolute inset-0;
 }
 
+
+
+/* Check list */
 .check-list li {
-  @apply pl-11 bg-no-repeat;
+  @apply pl-11 bg-no-repeat pb-4;
   background-image:url(../images/icon-check.svg);
   background-size: 22px;
-  background-position: 0 10px;
+  background-position: 0 7px;
 }
+
+/* Owl carousel */
+.testimonial-slider .owl-nav {
+  position:absolute; 
+  right:0; top:-50px;
+  width:50px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.owl-nav button {
+  width:23px !important;
+  height:18px !important;
+  display:block !important;
+  background-size: contain !important;
+  background-repeat:no-repeat !important;
+  outline:0;
+}
+.owl-nav button > span {font-size:0;}
+
+.owl-nav .owl-next {
+  background-image:url(../images/icon-arrow-left.svg) !important;
+}
+
+.owl-nav .owl-prev {
+  background-image:url(../images/icon-arrow-right.svg) !important;
+}
+
 
 @tailwind utilities;
