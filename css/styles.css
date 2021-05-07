@@ -74,6 +74,26 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+      url('../fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+      url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 body {
   @apply font-sfpro;
 }
@@ -86,9 +106,15 @@ h1, h2, h3, h4, h5, h6 {
   @apply px-6 lg:px-8 py-3 text-sm lg:text-base outline-none font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
 }
 
+.btn.arrow {display:inline-flex; align-items:center;}
+.btn.arrow:after {content:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(23%2C%2071%2C%20128%2C%201)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");line-height: 0;margin-left: 15px;margin-right: -10px;}
+.btn.arrow:hover:after {content:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255%2C255%2C255%2C1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");}
+
 .btn.primary {
-  @apply bg-purple-800 text-white border border-purple-800;
+  @apply bg-purple-800 text-white border border-purple-800 hover:opacity-80;
 }
+
+.btn.primary.arrow:after {content:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255%2C255%2C255%2C1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");line-height: 0; margin-left: 15px;margin-right: -10px;}
 
 .mega-dropdown {
   @apply w-screen z-50 bg-white lg:absolute relative hidden;
