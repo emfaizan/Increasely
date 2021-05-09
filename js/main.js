@@ -3,10 +3,6 @@ $(".icon-hamburger").click(function() {
 	$('.main-nav').toggleClass("open")
 });
 
-$('.dropdown-menu').click(function(){
-    $(this).toggleClass("active");
-});
-
 
 $('.testimonial-slider').owlCarousel({
     loop:true,
@@ -27,3 +23,35 @@ $('.testimonial-slider').owlCarousel({
         }
     }
 })
+
+
+
+// $('.dropdown-menu').click(function(){
+//     $(this).toggleClass("active");
+// });
+
+
+// show dropdown once and then go to url
+$(".main-nav > li > a").click(function(e) {
+    $parent = $(this).parent('.dropdown-menu');
+    if(window.matchMedia("(max-width: 1023px)").matches && !$parent.hasClass('active')){
+        e.preventDefault();
+        $parent.toggleClass('active');
+    }
+});
+
+// Always toggle underneath dropdown
+$(".toggle-menu").click(function(e) {
+    $parent = $(this).parent('.dropdown-menu');
+    $parent.toggleClass('active');
+});
+
+// If click outside menu on mobile/tablet
+$(document).on("click", function(e){
+    if(window.matchMedia("(max-width: 1023px)").matches){
+        if($(e.target).closest('.main-nav').length == 0 && $(e.target).closest('.menu-trigger').length == 0) {
+            $('.main-nav').removeClass("open");
+            $(".icon-hamburger").removeClass("open");
+        }
+    }
+});
