@@ -136,6 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu.active > div {display: block !important ;}
 
 
+.info {@apply flex -mx-5 my-3;}
+.info li {@apply relative px-5 font-medium text-blue-400;}
+.info li:after{@apply bg-blue-200 h-1.5 w-1.5 rounded-full block absolute top-1/2 -mt-1 -right-0.5; content:'';}
+.info li:last-child:after{@apply hidden;}
+
+
 /* HAMBURGER MENU */
 .icon-hamburger{@apply relative m-auto cursor-pointer; width: 28px;height: 22px;transform:rotate(0);transition:.5s ease-in-out;}
 .icon-hamburger span{@apply block absolute bg-white rounded left-0 opacity-100 w-full;height:3px;transform:rotate(0);transition:.25s ease-in-out}
