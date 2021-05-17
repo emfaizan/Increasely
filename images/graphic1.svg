@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="806" height="713" viewBox="0 0 806 713">
+  <defs>
+    <filter id="Rectangle_1262" x="36" y="196" width="726" height="294" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1262-2" x="36" y="419" width="726" height="294" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1262-3" x="0" y="0" width="806" height="317" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1293" data-name="Group 1293" transform="translate(-404 -1581)">
+    <g id="Group_1249" data-name="Group 1249" transform="translate(471.466 1645.413)">
+      <g id="Group_511" data-name="Group 511" transform="translate(13.449 156.088)">
+        <g transform="matrix(1, 0, 0, 1, -80.92, -220.5)" filter="url(#Rectangle_1262)">
+          <g id="Rectangle_1262-4" data-name="Rectangle 1262" transform="translate(81 221)" fill="#fff" stroke="#eaeaea" stroke-width="0.5">
+            <rect width="636" height="204" rx="16" stroke="none"/>
+            <rect x="0.25" y="0.25" width="635.5" height="203.5" rx="15.75" fill="none"/>
+          </g>
+        </g>
+        <text id="Ad" transform="translate(31.086 40.5)" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="0">Ad</tspan></text>
+        <text id="www.otherbusiness.com" transform="translate(77.086 38.5)" fill="#333" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">www.otherbusiness.com</tspan></text>
+        <text id="Other_Business_-_Another_Services_" data-name="Other Business - Another Services " transform="translate(31.086 76.5)" fill="#2920b0" font-size="19" font-family="ArialMT, Arial"><tspan x="0" y="0">Other Business - Another Services </tspan></text>
+        <text id="This_is_where_we_could_put_ad_copy_for_your_paid_searcg_ads._Give_us_a_call_today_for_a_free_estimate_Interested_in_learning_more_about_or_services_Give_us_a_call_today_and_we_ll_help_get_you_setup." data-name="This is where we could put ad copy for your paid searcg ads. Give us a call today for a free estimate! Interested in learning more about or services? Give us a call today and we’ll help get you setup." transform="translate(31.086 96.5)" fill="#2f2f2f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">This is where we could put ad copy for your paid searcg ads. Give us a call today </tspan><tspan x="0" y="40">for a free estimate! Interested in learning more about or services? Give us a call </tspan><tspan x="0" y="66">today and we’ll help get you setup.</tspan></text>
+        <text id="_555_123-4567" data-name="(555) 123-4567" transform="translate(261.086 39.5)" fill="#333" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="0">(555) 123-4567</tspan></text>
+        <circle id="Ellipse_92" data-name="Ellipse 92" cx="1" cy="1" r="1" transform="translate(63.085 35.499)" fill="#707070"/>
+        <path id="Polygon_27" data-name="Polygon 27" d="M3.61.488a.5.5,0,0,1,.781,0l2.96,3.7A.5.5,0,0,1,6.96,5H1.04a.5.5,0,0,1-.39-.812Z" transform="translate(247.085 39.499) rotate(180)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Group_1250" data-name="Group 1250" transform="translate(471.466 1868.413)">
+      <g id="Group_511-2" data-name="Group 511" transform="translate(13.449 156.088)">
+        <g transform="matrix(1, 0, 0, 1, -80.92, -443.5)" filter="url(#Rectangle_1262-2)">
+          <g id="Rectangle_1262-5" data-name="Rectangle 1262" transform="translate(81 444)" fill="#fff" stroke="#eaeaea" stroke-width="0.5">
+            <rect width="636" height="204" rx="16" stroke="none"/>
+            <rect x="0.25" y="0.25" width="635.5" height="203.5" rx="15.75" fill="none"/>
+          </g>
+        </g>
+        <text id="Ad-2" data-name="Ad" transform="translate(31.086 40.5)" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="0">Ad</tspan></text>
+        <text id="www.otherbusiness.com-2" data-name="www.otherbusiness.com" transform="translate(77.086 38.5)" fill="#333" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">www.otherbusiness.com</tspan></text>
+        <text id="Other_Business_-_Another_Services_2" data-name="Other Business - Another Services " transform="translate(31.086 76.5)" fill="#2920b0" font-size="19" font-family="ArialMT, Arial"><tspan x="0" y="0">Other Business - Another Services </tspan></text>
+        <text id="This_is_where_we_could_put_ad_copy_for_your_paid_searcg_ads._Give_us_a_call_today_for_a_free_estimate_Interested_in_learning_more_about_or_services_Give_us_a_call_today_and_we_ll_help_get_you_setup.-2" data-name="This is where we could put ad copy for your paid searcg ads. Give us a call today for a free estimate! Interested in learning more about or services? Give us a call today and we’ll help get you setup." transform="translate(31.086 96.5)" fill="#2f2f2f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">This is where we could put ad copy for your paid searcg ads. Give us a call today </tspan><tspan x="0" y="40">for a free estimate! Interested in learning more about or services? Give us a call </tspan><tspan x="0" y="66">today and we’ll help get you setup.</tspan></text>
+        <text id="_555_123-4567-2" data-name="(555) 123-4567" transform="translate(261.086 39.5)" fill="#333" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="0">(555) 123-4567</tspan></text>
+        <circle id="Ellipse_92-2" data-name="Ellipse 92" cx="1" cy="1" r="1" transform="translate(63.085 35.499)" fill="#707070"/>
+        <path id="Polygon_27-2" data-name="Polygon 27" d="M3.61.488a.5.5,0,0,1,.781,0l2.96,3.7A.5.5,0,0,1,6.96,5H1.04a.5.5,0,0,1-.39-.812Z" transform="translate(247.085 39.499) rotate(180)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Group_512" data-name="Group 512" transform="translate(435.551 1449.912)">
+      <g id="Group_511-3" data-name="Group 511" transform="translate(13.45 156.5)">
+        <g transform="matrix(1, 0, 0, 1, -45, -25.41)" filter="url(#Rectangle_1262-3)">
+          <g id="Rectangle_1262-6" data-name="Rectangle 1262" transform="translate(45 25)" fill="#fff" stroke="#d9d9d9" stroke-width="0.5">
+            <rect width="716" height="227" rx="16" stroke="none"/>
+            <rect x="0.25" y="0.25" width="715.5" height="226.5" rx="15.75" fill="none"/>
+          </g>
+        </g>
+        <text id="Ad-3" data-name="Ad" transform="translate(38 48.588)" font-size="17" font-family="ArialMT, Arial"><tspan x="0" y="0">Ad</tspan></text>
+        <text id="www.yourbusiness.com" transform="translate(95 48.588)" fill="#333" font-size="17" font-family="ArialMT, Arial"><tspan x="0" y="0">www.yourbusiness.com</tspan></text>
+        <text id="Your_Tree_Care_Business_-_Tree_Care_Services_in_Your_City" data-name="Your Tree Care Business - Tree Care Services in Your City" transform="translate(38 93.588)" fill="#2920b0" font-size="24" font-family="ArialMT, Arial"><tspan x="0" y="0">Your Tree Care Business - Tree Care Services in Your City</tspan></text>
+        <text id="This_is_where_we_could_put_ad_copy_for_your_paid_searcg_ads._Give_us_a_call_today_for_a_free_estimate_Interested_in_learning_more_about_or_services_Give_us_a_call_today_and_we_ll_help_get_you_setup.-3" data-name="This is where we could put ad copy for your paid searcg ads. Give us a call today for a free estimate! Interested in learning more about or services? Give us a call today and we’ll help get you setup." transform="translate(38 117.588)" fill="#2f2f2f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">This is where we could put ad copy for your paid searcg ads. Give us a call today for a </tspan><tspan x="0" y="40">free estimate! Interested in learning more about or services? Give us a call today and </tspan><tspan x="0" y="66">we’ll help get you setup.</tspan></text>
+        <text id="_555_123-4567-3" data-name="(555) 123-4567" transform="translate(316 48.588)" fill="#333" font-size="17" font-family="ArialMT, Arial"><tspan x="0" y="0">(555) 123-4567</tspan></text>
+        <circle id="Ellipse_92-3" data-name="Ellipse 92" cx="1.5" cy="1.5" r="1.5" transform="translate(77 42.588)" fill="#707070"/>
+        <path id="Polygon_27-3" data-name="Polygon 27" d="M4.593.57a.5.5,0,0,1,.814,0l4.028,5.64A.5.5,0,0,1,9.028,7H.972a.5.5,0,0,1-.407-.791Z" transform="translate(301 48.588) rotate(180)" fill="#707070"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="745.001" height="730" viewBox="0 0 745.001 730">
+  <defs>
+    <filter id="Rectangle_1262" x="91.001" y="0" width="654" height="286" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.043"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2449" x="0" y="222" width="654" height="286" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2449-2" x="91.001" y="444" width="654" height="286" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="graphic4" transform="translate(-1580.999 -4465)">
+    <g id="Group_1261" data-name="Group 1261" transform="translate(195 -15)">
+      <g transform="matrix(1, 0, 0, 1, 1386, 4480)" filter="url(#Rectangle_1262)">
+        <rect id="Rectangle_1262-2" data-name="Rectangle 1262" width="564" height="196" rx="42" transform="translate(136 25)" fill="#fff"/>
+      </g>
+      <text id="_19.45_" data-name="19.45%" transform="translate(1727 4593)" fill="#174780" font-size="53" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">19.45%</tspan></text>
+      <text id="Avg._Page_Ranking" data-name="Avg. Page Ranking" transform="translate(1727 4641)" fill="#174780" font-size="29" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Avg. Page Ranking</tspan></text>
+      <rect id="Rectangle_2331" data-name="Rectangle 2331" width="120.264" height="120.265" rx="41" transform="translate(1569.074 4541.088)" fill="#4012ff"/>
+      <g id="SEO" transform="translate(1595.747 4568.112)">
+        <path id="Path_4158" data-name="Path 4158" d="M15.742,326.934,1.695,340.978a5.8,5.8,0,0,0,8.2,8.2l14.07-14.067A29.491,29.491,0,0,1,15.742,326.934Z" transform="translate(0.001 -284.652)" fill="#fff"/>
+        <path id="Path_4159" data-name="Path 4159" d="M156.389,7.573a25.839,25.839,0,1,0,0,36.559A25.687,25.687,0,0,0,156.389,7.573ZM138.1,41.937A16.091,16.091,0,1,1,154.19,25.846,16.109,16.109,0,0,1,138.1,41.937Zm5.641-26.918a28.785,28.785,0,0,1,1.751,8.887h4.665A12.247,12.247,0,0,0,143.74,15.019Zm0,21.655a12.247,12.247,0,0,0,6.416-8.887h-4.665A28.785,28.785,0,0,1,143.74,36.673ZM138.1,13.635c-.31,0-1.229.711-2.082,2.909a25.025,25.025,0,0,0-1.425,7.363h7.015a25.029,25.029,0,0,0-1.424-7.363C139.328,14.346,138.411,13.635,138.1,13.635Zm-2.082,21.514c.854,2.2,1.772,2.909,2.082,2.909s1.229-.711,2.084-2.909a25.029,25.029,0,0,0,1.424-7.363h-7.015A25.025,25.025,0,0,0,136.017,35.149Zm-9.974-11.243h4.664a28.822,28.822,0,0,1,1.751-8.887A12.249,12.249,0,0,0,126.043,23.906Zm0,3.88a12.251,12.251,0,0,0,6.415,8.887,28.822,28.822,0,0,1-1.751-8.887Z" transform="translate(-97.733 -0.001)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1253" data-name="Group 1253" transform="translate(1625.51 4711.986)">
+      <g transform="matrix(1, 0, 0, 1, -44.51, -246.99)" filter="url(#Rectangle_2449)">
+        <rect id="Rectangle_2449-3" data-name="Rectangle 2449" width="564" height="196" rx="42" transform="translate(45 247)" fill="#fff"/>
+      </g>
+      <text id="_58.8_" data-name="58.8%" transform="translate(205.49 91.014)" fill="#174780" font-size="54" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">58.8%</tspan></text>
+      <text id="Percent_of_Page_Online" data-name="Percent of Page Online" transform="translate(205.49 138.014)" fill="#174780" font-size="29" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Percent of Page Online</tspan></text>
+      <rect id="Rectangle_2450" data-name="Rectangle 2450" width="120.264" height="120.265" rx="41" transform="translate(47.286 35.721)" fill="#b75def"/>
+      <g id="pie_chart" data-name="pie chart" transform="translate(72.42 60.661)">
+        <g id="Group_1256" data-name="Group 1256" transform="translate(0 19.46)">
+          <g id="Group_1255" data-name="Group 1255">
+            <path id="Path_4209" data-name="Path 4209" d="M19.277,156.625a15.637,15.637,0,0,1,1.2-6.018L3.7,140.923a35.06,35.06,0,0,0,6.55,40.45,35.345,35.345,0,0,0,5.5,4.493l9.684-16.773A15.7,15.7,0,0,1,19.277,156.625Z" transform="translate(0 -140.923)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_1258" data-name="Group 1258" transform="translate(5.758 0.224)">
+          <g id="Group_1257" data-name="Group 1257">
+            <path id="Path_4210" data-name="Path 4210" d="M46.611,10.414a35.344,35.344,0,0,0-4.493,5.5L58.891,25.6a15.727,15.727,0,0,1,10.417-6.022V.224A34.743,34.743,0,0,0,46.611,10.414Z" transform="translate(-42.118 -0.224)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_1260" data-name="Group 1260" transform="translate(19.297 0.224)">
+          <g id="Group_1259" data-name="Group 1259">
+            <path id="Path_4211" data-name="Path 4211" d="M181.6,10.414A34.743,34.743,0,0,0,158.9.224V19.573a15.722,15.722,0,1,1-8.068,30.113L141.146,66.46A35.009,35.009,0,0,0,181.6,10.414Z" transform="translate(-141.146 -0.224)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1254" data-name="Group 1254" transform="translate(1717.042 4934.087)">
+      <g transform="matrix(1, 0, 0, 1, -136.04, -469.09)" filter="url(#Rectangle_2449-2)">
+        <rect id="Rectangle_2449-4" data-name="Rectangle 2449" width="564" height="196" rx="42" transform="translate(136 469)" fill="#fff"/>
+      </g>
+      <text id="_51" data-name="51" transform="translate(205.958 90.913)" fill="#174780" font-size="54" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">51</tspan></text>
+      <text id="Improved_Keyword" data-name="Improved Keyword" transform="translate(205.958 137.913)" fill="#174780" font-size="29" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Improved Keyword</tspan></text>
+      <rect id="Rectangle_2450-2" data-name="Rectangle 2450" width="120.264" height="120.265" rx="41" transform="translate(47.286 35.721)" fill="#00bbd3"/>
+      <g id="_2214523" data-name="2214523" transform="translate(78.958 34.163)">
+        <path id="Path_4212" data-name="Path 4212" d="M5,82.5V40H0V85a2.5,2.5,0,0,0,2.5,2.5H60v-5Z" fill="#fff"/>
+        <path id="Path_4213" data-name="Path 4213" d="M44.5,106.5A2.5,2.5,0,0,0,42,104H34.5a2.5,2.5,0,0,0-2.5,2.5V124H44.5Z" transform="translate(-22 -44)" fill="#fff"/>
+        <path id="Path_4214" data-name="Path 4214" d="M100.5,74.5A2.5,2.5,0,0,0,98,72H90.5A2.5,2.5,0,0,0,88,74.5V102h12.5Z" transform="translate(-60.5 -22)" fill="#fff"/>
+        <path id="Path_4215" data-name="Path 4215" d="M156.5,42.5A2.5,2.5,0,0,0,154,40h-7.5a2.5,2.5,0,0,0-2.5,2.5V80h12.5Z" transform="translate(-99)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

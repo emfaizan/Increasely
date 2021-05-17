@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  @apply px-6 lg:px-8 py-3 text-sm lg:text-base outline-none font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:bg-blue-900 hover:text-white;
+  @apply px-6 lg:px-8 py-3 text-sm lg:text-base outline-none font-bold inline-block rounded-xl text-blue-900 border border-blue-200 hover:border-blue-900 hover:bg-blue-900 hover:text-white;
 }
 
 .btn.arrow {display:inline-flex; align-items:center;}
@@ -122,22 +122,25 @@ h1, h2, h3, h4, h5, h6 {
   @apply w-screen z-50 bg-white lg:absolute relative hidden;
   margin-left:50%;
   left:-50vw;
+  box-shadow: 0 99px 69px rgba(0, 0, 0, 0.06);
 }
 
 /* Dropdown */
 @screen lg {
-  .dropdown-menu:hover > div {display: block !important ;}
-  .main-nav > li:hover > a {@apply border-purple-800;}
+  .dropdown-menu:hover > div {display: block !important ;}  
   .bg-white .mega-dropdown {@apply border-t;}
 }
-
+.dropdown-menu.active > a {@apply text-purple-800 border-current;}
 .dropdown-menu.active > div {display: block !important ;}
 
 
-.info {@apply flex -mx-5 my-3;}
-.info li {@apply relative px-5 font-medium text-blue-400;}
-.info li:after{@apply bg-blue-200 h-1.5 w-1.5 rounded-full block absolute top-1/2 -mt-1 -right-0.5; content:'';}
-.info li:last-child:after{@apply hidden;}
+.info {@apply list-disc ml-4 flex flex-col sm:flex-row sm:-mx-4 my-3;}
+.info li {@apply relative sm:px-4 font-medium text-blue-400;}
+@screen sm {
+  .info {@apply list-none;}
+  .info li:after{@apply bg-blue-200 h-1.5 w-1.5 rounded-full block absolute top-1/2 -mt-1 -right-0.5; content:'';}
+  .info li:last-child:after{@apply hidden;}
+}
 
 
 /* HAMBURGER MENU */
@@ -155,27 +158,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* MOBILE MENU */
 .main-nav.open {
-    @apply absolute top-full left-0 right-0;
+    @apply absolute top-full left-0 right-0 border-t;
     display:block !important;
+    box-shadow: 0 99px 69px rgba(0, 0, 0, 0.06);
 }
-
-
 
 .hero-banner:before {
   content:'';
-  @apply opacity-90 absolute inset-0;
-  background: -moz-linear-gradient(left,  rgba(56,21,162,1) 0%, rgba(125,185,232,0) 100%);
-  background: -webkit-linear-gradient(left,  rgba(56,21,162,1) 0%,rgba(125,185,232,0) 100%);
-  background: linear-gradient(to right,  rgba(56,21,162,1) 0%,rgba(125,185,232,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3815a2', endColorstr='#007db9e8',GradientType=1 );
-
+  @apply opacity-50 absolute inset-0;
+  background-image: linear-gradient(40.47deg, #110b9b 0%, #1c0760 100%);
 }
 .hero-banner:after {
   content:'';
-  @apply bg-purple-900 opacity-70 absolute inset-0;
+  @apply opacity-70 absolute inset-0;
+  background-image: linear-gradient(40.47deg, #2d0d8e 0%, #6c2481 100%);
 }
-
-
 
 /* Check list */
 .check-list li {
@@ -186,12 +183,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Owl carousel */
+.testimonial-slider.owl-carousel {
+  position: static;
+}
 .testimonial-slider .owl-nav {
   position:absolute; 
-  right:0; top:-50px;
-  width:50px;
+  right: 0; top: 8px;
+  width: 70px;
   display:flex;
   justify-content: space-between;
+}
+@screen sm {
+  .testimonial-slider .owl-nav {
+    top: 15px;
+  }
 }
 
 .owl-nav button {
@@ -207,10 +212,26 @@ h1, h2, h3, h4, h5, h6 {
 .owl-nav .owl-next {
   background-image:url(../images/icon-arrow-left.svg) !important;
 }
-
 .owl-nav .owl-prev {
   background-image:url(../images/icon-arrow-right.svg) !important;
 }
+.owl-nav .owl-next.disabled,
+.owl-nav .owl-prev.disabled {
+  opacity: 0.50;
+}
 
+/* Tabs */
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+[data-tabs] {
+  @apply border-transparent;
+}
+[data-tabs].active {
+  @apply border-purple-800 text-blue-900;
+}
 
 @tailwind utilities;

@@ -5,7 +5,8 @@ $(".icon-hamburger").click(function() {
 
 
 $('.testimonial-slider').owlCarousel({
-    loop:true,
+    loop: false,
+    rewind: false,
     margin:25,
     responsiveClass:true,
     nav:true,
@@ -33,8 +34,11 @@ $('.testimonial-slider').owlCarousel({
 
 // show dropdown once and then go to url
 $(".main-nav > li > a").click(function(e) {
-    $parent = $(this).parent('.dropdown-menu');
-    if(window.matchMedia("(max-width: 1023px)").matches && !$parent.hasClass('active')){
+    $parent = $(this).parent('li');
+    isDropdown = $parent.hasClass('dropdown-menu');
+    isActive = $parent.hasClass('active');
+    
+    if(window.matchMedia("(max-width: 1023px)").matches && !isActive && isDropdown){
         e.preventDefault();
         $parent.toggleClass('active');
     }
@@ -54,4 +58,16 @@ $(document).on("click", function(e){
             $(".icon-hamburger").removeClass("open");
         }
     }
+});
+
+// Tabs
+$("[data-tabs]").click(function(e) {
+    e.preventDefault();
+    $elem = $($(this).attr('href'));
+
+    $('.tab-content').css('display','').removeClass('active');
+    $elem.fadeIn().addClass('active');
+
+    $("[data-tabs]").removeClass('active')
+    $(this).addClass('active')
 });
